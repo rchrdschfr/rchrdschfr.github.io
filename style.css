@@ -1,0 +1,22 @@
+body {
+  background: red;
+  background: linear-gradient(to left, red, green);
+}
+button {
+  font-size: 1.3em;
+  font-weight: 200;
+}
+.container {
+  width: 279px;
+  margin: auto;
+}
+
+#reindeer {
+  width: 279px;
+  height: 456px;
+  background: url('spritesheet.png');
+}
+
+#play {
+  width: 100%;
+}
