@@ -1,16 +1,21 @@
 body {
   background: red;
+  background: -webkit-linear-gradient(to left, red, green);
+  background: -o-linear-gradient(to left, red, green);
+  background: -moz-linear-gradient(to left, red, green);
   background: linear-gradient(to left, red, green);
 }
 button {
   font-size: 1.3em;
   font-weight: 200;
 }
+button:hover {
+  cursor: pointer;
+}
 .container {
   width: 279px;
   margin: auto;
 }
-
 #reindeer {
   width: 279px;
   height: 456px;
